@@ -6,7 +6,7 @@ trigger:
 steps:
   - task: NodeTool@0
     inputs:
-    versionSource: 'spec'
-    versionSpec: '6.x' 
+      versionSource: 'spec'
+      versionSpec: '6.x' 
  
   
