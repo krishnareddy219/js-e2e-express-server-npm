@@ -1,0 +1,8 @@
+pool:
+  name: Default
+trigger: 
+  - main
+
+steps: 
+  - template: ./npm-template.yaml
+  
