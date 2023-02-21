@@ -3,10 +3,6 @@ pool:
 trigger: 
   - main
 
-steps:
-  - task: NodeTool@0
-    inputs:
-    versionSource: 'spec'
-    versionSpec: '6.x' 
- 
+steps: 
+  - template: ./npm-template.yaml
   
