@@ -3,9 +3,9 @@ pool:
 trigger:
  - main
 
-extends:
-   template: ./npm-templparam.yaml
-   parameters:
-     name: 
-       - install 
-       - run build 
+steps:
+extends: 
+  - template: ./npm-templparam.yaml
+    parameters:
+      - install 
+      - run build  
