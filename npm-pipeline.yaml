@@ -7,4 +7,3 @@ extends:
   - template: ./npm-templparam.yaml
     parameters:
       - install 
-      - run build  
