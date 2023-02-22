@@ -14,3 +14,7 @@ steps:
   - task: Npm@1
     inputs:
       command: "${{ parameters.npminstall }}"
+  - task: Npm@1
+    inputs:
+      command: "${{ parameters.npminstall }}"
+   
