@@ -4,6 +4,6 @@ trigger:
  - main
 
 extends:
-   template: ./npm-templte.yaml
+   template: ./npm-template.yaml
    parameters: 
       npminstall: install
