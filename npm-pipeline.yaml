@@ -3,7 +3,7 @@ pool:
 trigger:
  - main
 
-extends:
-   template: ./npm-template.yaml
-   parameters: 
+steps:
+  - template: ./npm-template.yaml
+    parameters: 
       npminstall: 'install'
