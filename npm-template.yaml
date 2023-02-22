@@ -5,4 +5,4 @@ steps:
   - task: Npm@1
     inputs:
       command: 'custom'
-      customCommand: 'build'
+      customCommand: 'run build'
