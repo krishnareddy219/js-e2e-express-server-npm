@@ -7,5 +7,4 @@ extends:
   template: ./npm-template.yaml
   parameters: 
     npminstall:
-      - install 
-      - run build
+      - install
