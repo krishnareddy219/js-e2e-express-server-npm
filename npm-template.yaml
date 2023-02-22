@@ -1,11 +1,11 @@
 parameters:
-  name: npminstall
-  displayName: npm installation
-  type: string
-  default: install 
-  values:
-    - install
-    - run build 
+  - name: npminstall
+    displayName: npm installation
+    type: string
+    default: install 
+    values:
+      - install
+      - run build 
 
 
 steps:
