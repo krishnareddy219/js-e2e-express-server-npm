@@ -8,6 +8,15 @@ parameters:
       - run build 
       - compile
       - package
+  - name: npmbuild
+    displayName: npm build
+    type: string
+    default: run build 
+    values:
+      - install
+      - run build 
+      - compile
+      - package
 
 
 steps:
@@ -16,5 +25,5 @@ steps:
       command: "${{ parameters.npminstall }}"
   - task: Npm@1
     inputs:
-      command: "${{ parameters.npminstall }}"
+      command: "${{ parameters.npmbuild }}"
    
