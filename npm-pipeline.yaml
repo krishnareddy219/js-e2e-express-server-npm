@@ -3,7 +3,6 @@ pool:
 trigger:
  - main
 
-steps:
 extends:
   - template: ./npm-templparam.yaml
     parameters:
