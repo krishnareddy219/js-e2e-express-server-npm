@@ -4,4 +4,5 @@ steps:
       command: 'install'
   - task: Npm@1
     inputs:
-      command: 'build'
+      command: 'custom'
+      customCommand: 'build'
