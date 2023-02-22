@@ -4,7 +4,7 @@ trigger:
  - main
 
 steps:
-  - template: npm-templparam.yaml
+  - template: ./npm-templparam.yaml
     parameters:
       - install 
       - run build 
