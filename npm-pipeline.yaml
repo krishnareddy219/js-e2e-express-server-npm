@@ -3,6 +3,7 @@ pool:
 trigger:
  - main
 
-extends: 
-   template: ./npm-templparam.yaml
-   parameters: install 
+extends:
+  - template: ./npm-templparam.yaml
+    parameters: 
+      npminstall: install
