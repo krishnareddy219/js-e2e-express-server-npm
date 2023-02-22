@@ -4,6 +4,6 @@ trigger:
  - main
 
 extends: 
-  - template: ./npm-templparam.yaml
-    parameters:
-      - install 
+   template: ./npm-templparam.yaml
+   parameters:
+     - install 
