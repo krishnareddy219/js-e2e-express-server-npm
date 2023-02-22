@@ -1,8 +1,10 @@
 pool:
   name: Default
-trigger: 
-  - main
+trigger:
+ - main
 
-steps: 
-  - template: ./npm-template.yaml
-  
+steps:
+  - template: npm-templparam.yaml
+    parameters:
+      - install 
+      - run build 
