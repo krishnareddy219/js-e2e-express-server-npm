@@ -5,5 +5,4 @@ trigger:
 
 extends: 
    template: ./npm-templparam.yaml
-   parameters:
-     - install 
+   parameters: install 
